@@ -1,0 +1,13 @@
+.contenedor {
+  width: 600px;
+  display: flex;
+  gap: 10px;
+}
+
+.a, .c {
+  flex: 1;
+}
+
+.b {
+  flex: 2;
+}
