@@ -1,0 +1,12 @@
+.contenedor {
+  display: flex;
+  gap: 10px;
+}
+
+.tercero {
+  order: -1; 
+}
+
+.primero {
+  order: 1;
+}
