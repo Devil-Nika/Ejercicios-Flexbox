@@ -1,0 +1,28 @@
+body { font-family: sans-serif; margin: 0; }
+header, footer { background: #34495e; color: white; padding: 20px; text-align: center; }
+.izq, .der { background: #bdc3c7; padding: 20px; }
+main { background: #ecf0f1; padding: 20px; }
+
+.pagina {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.cuerpo {
+  display: flex;
+  flex: 1; 
+}
+
+.izq {
+  flex: 0 0 200px;
+  order: -1;
+}
+
+.der {
+  flex: 0 0 200px;
+}
+
+main {
+  flex: 1;
+}

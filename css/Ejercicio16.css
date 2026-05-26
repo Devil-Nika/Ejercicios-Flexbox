@@ -8,7 +8,6 @@ body { font-family: sans-serif; padding: 20px; }
 }
 
 .item {
-  /* Crece, se encoge, y calcula el 25% menos el gap */
   flex: 1 1 calc(25% - 10px);
-  min-width: 200px; /* Frena la reducción en pantallas chicas forzando el wrap */
+  min-width: 200px;
 }
