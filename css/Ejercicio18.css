@@ -1,0 +1,26 @@
+body { font-family: sans-serif; padding: 20px; background: #eee; }
+
+.lista-tarjetas {
+  display: flex;
+  align-items: stretch; 
+  gap: 20px;
+}
+
+.tarjeta {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  flex: 1;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta button {
+  margin-top: auto; 
+  padding: 10px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
