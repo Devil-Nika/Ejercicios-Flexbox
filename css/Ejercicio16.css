@@ -1,0 +1,14 @@
+body { font-family: sans-serif; padding: 20px; }
+.item { background: #2ecc71; color: white; text-align: center; padding: 40px 0; font-size: 24px; font-weight: bold; }
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  /* Crece, se encoge, y calcula el 25% menos el gap */
+  flex: 1 1 calc(25% - 10px);
+  min-width: 200px; /* Frena la reducción en pantallas chicas forzando el wrap */
+}
