@@ -1,0 +1,23 @@
+body { font-family: sans-serif; padding: 20px; }
+.formulario { max-width: 500px; }
+
+.campo {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+label {
+  flex: 0 0 120px; 
+  background: #3498db;
+  color: white;
+  padding: 8px 15px;
+  text-align: right;
+  border-radius: 4px 0 0 4px;
+}
+
+input {
+  flex: 1; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+}
